@@ -1,0 +1,13 @@
+@use "../util" as *;
+
+@include breakpoint(medium) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: rem(10);
+}
